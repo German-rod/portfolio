@@ -23,3 +23,15 @@ Design multiplayer-safe systems
 Organize scalable logic
 
 Each script is written with readability and long-term maintainability in mind.
+
+# Architectural Approach
+
+Although some scripts use Knit for organization, the underlying principles remain the same:
+
+Clear separation of concerns
+Explicit state ownership
+Controlled lifecycle management
+Server-authoritative validation
+Minimal coupling between systems
+
+The architecture is adaptable and not dependent on any specific framework.
